@@ -1,0 +1,35 @@
+De: soporte@archivodelta.example
+Para: m.ortega@archivodelta.example
+Fecha: Mié, 11 Mar 2026 16:42:10 -0600
+Asunto: RE: Código de acceso para la aplicación de consulta
+
+Hola Marcela,
+
+Gracias por avisar. Revisamos la estación 07 y el problema era que el
+código de acceso no estaba configurado en la aplicación de consulta.
+
+Ya lo dejamos cargado en el archivo de configuración de la aplicación
+(carpeta config). Por el formato que usa el programa, el valor quedó
+codificado en Base64; es solo otra forma de representar el mismo texto,
+no una contraseña nueva, así que no hace falta cambiarlo.
+
+Si necesitas verlo tal cual, basta con decodificar ese valor.
+
+Saludos,
+Equipo de Soporte TI
+Archivo Delta
+
+-----Mensaje original-----
+De: m.ortega@archivodelta.example
+Enviado: Mié, 11 Mar 2026 09:15:03 -0600
+Para: soporte@archivodelta.example
+Asunto: Código de acceso para la aplicación de consulta
+
+Buenos días,
+
+Desde ayer la aplicación de consulta me pide un código de acceso que
+no tengo anotado. ¿Me lo pueden reenviar o dejar configurado?
+
+Gracias,
+Marcela Ortega
+Estación 07

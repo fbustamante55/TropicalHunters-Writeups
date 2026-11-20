@@ -1,0 +1,25 @@
+.DS_Store
+
+# Borrador sucio, ya reemplazado por README.md limpio
+17-Time-Of-Check-To-Time-Of-Use/lo que llevo.txt
+
+# Binarios de los retos (no se suben al repo publico; exploit.py + README documentan la solucion)
+08-Signed-Conversion/signed-conversion
+09-Stack-Overflow/stack-overflow
+10-Format-String/format-string
+11-Integer-Overflow/integer-overflow
+12-Out-Of-Bounds/out-of-bounds
+13-Preopened-Descriptor/preopened-descriptor
+14-Shellcode/shellcode
+15-Double-Free/double-free
+16-Use-After-Free/use-after-free
+17-Time-Of-Check-To-Time-Of-Use/toctou
+
+# Retos sin writeup terminado todavia (pendientes de agregar al portafolio)
+02-EduLab-Ascenso-a-administrador/
+03-EduLab-La-resena-del-profesor/
+06-Respaldo-Olvidado/
+07-Carne-de-Socio/
+08-Signed-Conversion/
+31-KeyForge/
+32-Chip/

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cafetal Cloud - Portal de clientes</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: linear-gradient(135deg, #0f3d2e 0%, #1b6b4f 55%, #e0a84b 100%);
+    color: #1d2b24;
+  }
+  .card {
+    width: 100%;
+    max-width: 380px;
+    margin: 16px;
+    padding: 32px 28px;
+    background: #fffdf8;
+    border-radius: 14px;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.28);
+  }
+  .brand { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; }
+  .logo {
+    width: 38px; height: 38px; border-radius: 50%;
+    background: #1b6b4f; color: #fffdf8;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 700; font-size: 18px;
+  }
+  .brand h1 { margin: 0; font-size: 22px; }
+  .sub { margin: 0 0 22px; color: #5b6b63; font-size: 14px; }
+  label { display: block; font-size: 13px; font-weight: 600; margin: 14px 0 6px; }
+  input {
+    width: 100%; padding: 11px 12px; font-size: 15px;
+    border: 1px solid #c9d3cd; border-radius: 8px; background: #ffffff;
+  }
+  input:focus { outline: 2px solid #1b6b4f; border-color: #1b6b4f; }
+  button {
+    width: 100%; margin-top: 22px; padding: 12px; font-size: 15px; font-weight: 600;
+    color: #ffffff; background: #1b6b4f; border: 0; border-radius: 8px; cursor: pointer;
+  }
+  button:hover { background: #145239; }
+  #msg { min-height: 22px; margin: 16px 0 0; font-size: 14px; text-align: center; }
+  .ok { color: #1b6b4f; font-weight: 700; }
+  .bad { color: #b3261e; }
+  .badge {
+    margin-top: 22px; padding: 10px 12px; font-size: 12px; color: #5b6b63;
+    background: #eef5f1; border-radius: 8px; text-align: center;
+  }
+</style>
+</head>
+<body>
+<main class="card">
+  <div class="brand"><div class="logo">C</div><h1>Cafetal Cloud</h1></div>
+  <p class="sub">Portal de clientes. Inicia sesión para ver tus facturas.</p>
+  <form id="login" autocomplete="off">
+    <label for="usuario">Usuario</label>
+    <input id="usuario" type="text" value="cliente">
+    <label for="clave">Contraseña</label>
+    <input id="clave" type="password" placeholder="********">
+    <button type="submit">Ingresar</button>
+  </form>
+  <p id="msg"></p>
+  <div class="badge">Seguridad de nivel bancario: tu contraseña nunca sale de tu navegador.</div>
+</main>
+<script>
+  // Validación local: así no hace falta un servidor. ¡Rápido y seguro!
+  function validarClave(clave) {
+    if (clave.length !== 38) {
+      return false;
+    }
+    return clave.substring(34, 38) == "_52}" &&
+           clave.substring(22, 26) == "rda_" &&
+           clave.substring(17, 22) == "o_gua" &&
+           clave.substring(12, 17) == "dor_n" &&
+           clave.substring(7, 12) == "avega" &&
+           clave.substring(26, 30) == "secr" &&
+           clave.substring(0, 2) == "TH" &&
+           clave.substring(30, 34) == "etos" &&
+           clave.substring(2, 7) == "{el_n";
+  }
+
+  document.getElementById("login").addEventListener("submit", function (ev) {
+    ev.preventDefault();
+    var msg = document.getElementById("msg");
+    var clave = document.getElementById("clave").value;
+    if (validarClave(clave)) {
+      msg.className = "ok";
+      msg.textContent = "Acceso concedido. ¡Bienvenido de vuelta!";
+    } else {
+      msg.className = "bad";
+      msg.textContent = "Contraseña incorrecta.";
+    }
+  });
+</script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"78a4e8457adc4f47800b13ef586a23d9","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

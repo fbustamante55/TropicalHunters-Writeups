@@ -1,0 +1,7 @@
+# AES-256-CBC. The key was derived as sha256(password).
+# The admin picked a password 'everyone knows' and 'nobody would guess'.
+
+mode       = AES-256-CBC
+kdf        = sha256(password).digest()
+iv         = 3YvfDb5Z0jaFjYCDSfjgnw==
+ciphertext = 3LiGvUVdR2A5FTwSj2qLBmyVxfI5Rug9k9RG1Zs2cvw=

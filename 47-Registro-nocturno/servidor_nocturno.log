@@ -1,0 +1,108 @@
+# Archivo Delta - portal interno (portal.archivodelta.local) - registro combinado auth/http/system
+# Zona horaria: America/Costa_Rica (UTC-6). Formato: fecha hora [NIVEL] modulo clave=valor ...
+2026-03-14 22:00:00 [INFO] system action=healthcheck servicio=portal-web result=ok
+2026-03-14 22:00:05 [INFO] cron job=limpieza_tmp result=ok duracion=2s
+2026-03-14 22:01:13 [INFO] auth user=mgarcia src=192.168.10.21 action=login result=ok
+2026-03-14 22:04:47 [INFO] auth user=lrojas src=192.168.10.34 action=login result=ok
+2026-03-14 22:04:52 [INFO] http user=mgarcia src=192.168.10.21 method=GET path=/portal/descargas/informe_semanal.pdf status=200 bytes=8057
+2026-03-14 22:05:13 [INFO] http user=mgarcia src=192.168.10.21 method=GET path=/portal/expedientes status=200 bytes=38556
+2026-03-14 22:05:41 [INFO] http user=mgarcia src=192.168.10.21 method=GET path=/portal/expedientes status=200 bytes=6850
+2026-03-14 22:07:57 [INFO] http user=lrojas src=192.168.10.34 method=GET path=/portal/descargas/informe_semanal.pdf status=200 bytes=4893
+2026-03-14 22:09:17 [INFO] http user=mgarcia src=192.168.10.21 method=GET path=/static/css/portal.css status=200 bytes=15919
+2026-03-14 22:09:41 [INFO] http user=mgarcia src=192.168.10.21 method=GET path=/portal/inicio status=200 bytes=1438
+2026-03-14 22:10:50 [INFO] http user=lrojas src=192.168.10.34 method=GET path=/portal/expedientes status=200 bytes=34153
+2026-03-14 22:11:29 [INFO] http user=mgarcia src=192.168.10.21 method=GET path=/portal/descargas/informe_semanal.pdf status=200 bytes=40758
+2026-03-14 22:13:38 [INFO] http user=lrojas src=192.168.10.34 method=GET path=/portal/inicio status=200 bytes=18067
+2026-03-14 22:13:47 [INFO] http user=mgarcia src=192.168.10.21 method=GET path=/portal/expedientes/2026-0311 status=200 bytes=6382
+2026-03-14 22:14:53 [INFO] http user=mgarcia src=192.168.10.21 method=GET path=/portal/expedientes status=200 bytes=1358
+2026-03-14 22:15:02 [WARN] auth user=lrojas src=192.168.10.34 action=login result=fail motivo=contrasena_incorrecta
+2026-03-14 22:15:20 [INFO] auth user=lrojas src=192.168.10.34 action=login result=ok
+2026-03-14 22:17:21 [INFO] http user=mgarcia src=192.168.10.21 method=GET path=/portal/descargas/informe_semanal.pdf status=200 bytes=16772
+2026-03-14 22:17:29 [INFO] http user=lrojas src=192.168.10.34 method=GET path=/portal/expedientes status=200 bytes=42646
+2026-03-14 22:18:24 [INFO] auth user=mgarcia src=192.168.10.21 action=logout result=ok
+2026-03-14 22:19:06 [INFO] http user=lrojas src=192.168.10.34 method=GET path=/portal/descargas/informe_semanal.pdf status=200 bytes=23680
+2026-03-14 22:20:34 [INFO] http user=lrojas src=192.168.10.34 method=GET path=/portal/busqueda?q=acta status=200 bytes=43357
+2026-03-14 22:21:45 [INFO] http user=lrojas src=192.168.10.34 method=GET path=/portal/descargas/informe_semanal.pdf status=200 bytes=35144
+2026-03-14 22:22:24 [INFO] auth user=lrojas src=192.168.10.34 action=logout result=ok
+2026-03-14 22:37:02 [INFO] auth user=aperez src=192.168.10.57 action=login result=ok
+2026-03-14 22:39:32 [INFO] http user=aperez src=192.168.10.57 method=GET path=/portal/expedientes status=200 bytes=778
+2026-03-14 22:41:17 [INFO] http user=aperez src=192.168.10.57 method=GET path=/portal/expedientes/2026-0311 status=200 bytes=46931
+2026-03-14 22:43:38 [INFO] http user=aperez src=192.168.10.57 method=GET path=/static/js/app.js status=200 bytes=11351
+2026-03-14 22:44:11 [INFO] http user=aperez src=192.168.10.57 method=GET path=/portal/expedientes status=200 bytes=38904
+2026-03-14 22:46:38 [INFO] http user=aperez src=192.168.10.57 method=GET path=/portal/expedientes/2026-0311 status=200 bytes=5336
+2026-03-14 22:49:20 [INFO] http user=aperez src=192.168.10.57 method=GET path=/portal/busqueda?q=acta status=200 bytes=9853
+2026-03-14 22:49:46 [INFO] http user=aperez src=192.168.10.57 method=GET path=/static/css/portal.css status=200 bytes=7667
+2026-03-14 22:52:17 [INFO] http user=- src=192.168.10.5 method=GET path=/api/estado status=200 bytes=112
+2026-03-14 22:52:21 [INFO] http user=aperez src=192.168.10.57 method=GET path=/portal/expedientes/2026-0311 status=200 bytes=44342
+2026-03-14 22:53:59 [INFO] http user=aperez src=192.168.10.57 method=GET path=/portal/descargas/informe_semanal.pdf status=200 bytes=2994
+2026-03-14 22:56:05 [INFO] http user=aperez src=192.168.10.57 method=GET path=/api/estado status=200 bytes=43810
+2026-03-14 22:59:51 [INFO] http user=aperez src=192.168.10.57 method=GET path=/portal/inicio status=200 bytes=12022
+2026-03-14 23:00:05 [INFO] cron job=limpieza_tmp result=ok duracion=2s
+2026-03-14 23:02:40 [INFO] auth user=aperez src=192.168.10.57 action=logout result=ok
+2026-03-14 23:12:30 [INFO] auth user=svargas src=192.168.10.12 action=login result=ok
+2026-03-14 23:13:29 [INFO] http user=svargas src=192.168.10.12 method=GET path=/api/estado status=200 bytes=10528
+2026-03-14 23:17:08 [INFO] http user=svargas src=192.168.10.12 method=GET path=/portal/descargas/informe_semanal.pdf status=200 bytes=3091
+2026-03-14 23:19:52 [INFO] http user=svargas src=192.168.10.12 method=GET path=/static/js/app.js status=200 bytes=23310
+2026-03-14 23:20:51 [INFO] http user=svargas src=192.168.10.12 method=GET path=/portal/no_existe status=404 bytes=210
+2026-03-14 23:22:18 [INFO] http user=svargas src=192.168.10.12 method=GET path=/static/css/portal.css status=200 bytes=38598
+2026-03-14 23:26:07 [INFO] http user=svargas src=192.168.10.12 method=GET path=/portal/descargas/informe_semanal.pdf status=200 bytes=31590
+2026-03-14 23:26:38 [INFO] http user=svargas src=192.168.10.12 method=GET path=/portal/descargas/informe_semanal.pdf status=200 bytes=39388
+2026-03-14 23:28:35 [INFO] auth user=svargas src=192.168.10.12 action=logout result=ok
+2026-03-14 23:48:09 [INFO] auth user=jmora src=192.168.10.88 action=login result=ok
+2026-03-14 23:50:21 [INFO] http user=jmora src=192.168.10.88 method=GET path=/portal/descargas/informe_semanal.pdf status=200 bytes=19777
+2026-03-14 23:51:51 [INFO] http user=jmora src=192.168.10.88 method=GET path=/portal/expedientes status=200 bytes=12564
+2026-03-14 23:53:57 [INFO] http user=jmora src=192.168.10.88 method=GET path=/static/js/app.js status=200 bytes=8229
+2026-03-14 23:56:32 [INFO] http user=jmora src=192.168.10.88 method=GET path=/portal/expedientes status=200 bytes=32198
+2026-03-14 23:58:28 [INFO] http user=jmora src=192.168.10.88 method=GET path=/api/estado status=200 bytes=42411
+2026-03-14 23:59:37 [INFO] http user=jmora src=192.168.10.88 method=GET path=/static/css/portal.css status=200 bytes=7488
+2026-03-15 00:00:00 [INFO] system action=healthcheck servicio=portal-web result=ok
+2026-03-15 00:00:01 [INFO] system action=logrotate archivo=/var/log/portal/acceso.log result=ok
+2026-03-15 00:00:05 [INFO] cron job=limpieza_tmp result=ok duracion=2s
+2026-03-15 00:02:56 [INFO] http user=jmora src=192.168.10.88 method=GET path=/portal/expedientes/2026-0311 status=200 bytes=38438
+2026-03-15 00:04:24 [INFO] http user=jmora src=192.168.10.88 method=GET path=/portal/expedientes/2026-0311 status=200 bytes=47594
+2026-03-15 00:05:21 [INFO] auth user=lrojas src=192.168.10.34 action=login result=ok
+2026-03-15 00:07:39 [INFO] auth user=jmora src=192.168.10.88 action=logout result=ok
+2026-03-15 00:09:04 [INFO] http user=lrojas src=192.168.10.34 method=GET path=/portal/descargas/informe_semanal.pdf status=200 bytes=47630
+2026-03-15 00:09:42 [INFO] http user=lrojas src=192.168.10.34 method=GET path=/portal/expedientes status=200 bytes=26302
+2026-03-15 00:10:56 [INFO] http user=lrojas src=192.168.10.34 method=GET path=/portal/inicio status=200 bytes=19152
+2026-03-15 00:14:41 [INFO] http user=lrojas src=192.168.10.34 method=GET path=/portal/inicio status=200 bytes=14778
+2026-03-15 00:17:10 [INFO] http user=lrojas src=192.168.10.34 method=GET path=/portal/expedientes status=200 bytes=46235
+2026-03-15 00:20:22 [INFO] auth user=lrojas src=192.168.10.34 action=logout result=ok
+2026-03-15 00:42:58 [INFO] auth user=aperez src=192.168.10.57 action=login result=ok
+2026-03-15 00:44:36 [INFO] http user=aperez src=192.168.10.57 method=GET path=/portal/descargas/informe_semanal.pdf status=200 bytes=4740
+2026-03-15 00:47:25 [INFO] http user=aperez src=192.168.10.57 method=GET path=/api/estado status=200 bytes=5184
+2026-03-15 00:50:41 [INFO] http user=aperez src=192.168.10.57 method=GET path=/static/js/app.js status=200 bytes=13631
+2026-03-15 00:51:26 [INFO] http user=aperez src=192.168.10.57 method=GET path=/static/js/app.js status=200 bytes=13153
+2026-03-15 00:54:46 [INFO] http user=aperez src=192.168.10.57 method=GET path=/portal/descargas/informe_semanal.pdf status=200 bytes=33201
+2026-03-15 00:56:06 [INFO] http user=aperez src=192.168.10.57 method=GET path=/static/css/portal.css status=200 bytes=13840
+2026-03-15 01:00:05 [INFO] cron job=limpieza_tmp result=ok duracion=2s
+2026-03-15 01:00:59 [INFO] auth user=aperez src=192.168.10.57 action=logout result=ok
+2026-03-15 01:30:00 [INFO] backup job=respaldo_diario action=start destino=/mnt/respaldo
+2026-03-15 01:47:55 [WARN] backup job=respaldo_diario aviso=espacio_bajo destino=/mnt/respaldo libre=14%
+2026-03-15 01:48:41 [INFO] backup job=respaldo_diario action=end result=ok tamano=1.8GB
+2026-03-15 02:00:00 [INFO] system action=healthcheck servicio=portal-web result=ok
+2026-03-15 02:00:05 [INFO] cron job=limpieza_tmp result=ok duracion=2s
+2026-03-15 02:10:44 [INFO] http user=- src=192.168.10.5 method=GET path=/api/estado status=200 bytes=112
+2026-03-15 02:58:12 [WARN] auth user=admin src=10.0.99.66 action=login result=fail motivo=contrasena_incorrecta intento=1
+2026-03-15 02:58:35 [WARN] auth user=admin src=10.0.99.66 action=login result=fail motivo=contrasena_incorrecta intento=2
+2026-03-15 02:59:02 [WARN] auth user=admin src=10.0.99.66 action=login result=fail motivo=contrasena_incorrecta intento=3
+2026-03-15 02:59:33 [WARN] auth user=admin src=10.0.99.66 action=login result=fail motivo=contrasena_incorrecta intento=4
+2026-03-15 03:00:05 [INFO] cron job=limpieza_tmp result=ok duracion=2s
+2026-03-15 03:00:07 [ALERT] auth user=admin src=10.0.99.66 action=login result=ok nota=acceso_fuera_de_horario_desde_ip_desconocida mensaje="VEh7ZWxfbG9nX251bmNhX21pZW50ZV8wMzAwfQ=="
+2026-03-15 03:01:25 [INFO] auth user=admin src=10.0.99.66 action=logout result=ok
+2026-03-15 03:30:12 [INFO] system action=sync_hora servidor=ntp.archivodelta.local result=ok
+2026-03-15 04:00:00 [INFO] system action=healthcheck servicio=portal-web result=ok
+2026-03-15 04:00:05 [INFO] cron job=limpieza_tmp result=ok duracion=2s
+2026-03-15 04:15:00 [INFO] db action=vacuum tabla=expedientes result=ok duracion=37s
+2026-03-15 04:40:03 [INFO] http user=- src=192.168.10.5 method=GET path=/api/estado status=200 bytes=112
+2026-03-15 05:00:05 [INFO] cron job=limpieza_tmp result=ok duracion=2s
+2026-03-15 05:31:44 [INFO] auth user=mgarcia src=192.168.10.21 action=login result=ok
+2026-03-15 05:35:03 [INFO] http user=mgarcia src=192.168.10.21 method=GET path=/static/js/app.js status=200 bytes=11848
+2026-03-15 05:37:52 [INFO] http user=mgarcia src=192.168.10.21 method=GET path=/portal/busqueda?q=acta status=200 bytes=20177
+2026-03-15 05:38:27 [INFO] http user=mgarcia src=192.168.10.21 method=GET path=/static/css/portal.css status=200 bytes=35418
+2026-03-15 05:39:26 [INFO] http user=mgarcia src=192.168.10.21 method=GET path=/portal/descargas/informe_semanal.pdf status=200 bytes=36381
+2026-03-15 05:41:46 [INFO] http user=mgarcia src=192.168.10.21 method=GET path=/static/css/portal.css status=200 bytes=9491
+2026-03-15 05:42:39 [INFO] http user=mgarcia src=192.168.10.21 method=GET path=/portal/inicio status=200 bytes=41327
+2026-03-15 05:43:41 [INFO] http user=mgarcia src=192.168.10.21 method=GET path=/portal/expedientes/2026-0311 status=200 bytes=36186
+2026-03-15 05:44:46 [INFO] auth user=mgarcia src=192.168.10.21 action=logout result=ok
+2026-03-15 05:59:58 [INFO] system action=healthcheck servicio=portal-web result=ok
